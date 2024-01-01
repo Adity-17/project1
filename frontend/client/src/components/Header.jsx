@@ -24,7 +24,6 @@ const Header = () => {
                     className="flex items-center cursor-pointer"
                     onClick={() => navigate('/')}
                 >
-                {/* <img className="h-6 w-auto" src=""  />*/}
                     <p className="ml-18 text-base font-semibold text-gray-900">Assignment - Task Board
 </p>
                 </div>

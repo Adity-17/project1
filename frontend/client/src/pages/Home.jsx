@@ -213,7 +213,6 @@ const Home = () => {
                                                                     </Label>
                                                                     <Input
                                                                         id="name"
-                                                                        placeholder="Buying Milk"
                                                                         className="col-span-3"
                                                                         value={taskName}
                                                                         onChange={(e) => setTaskName(e.target.value)}
@@ -269,7 +268,6 @@ const Home = () => {
                                                 </Label>
                                                 <Input
                                                     id="name"
-                                                    placeholder="Grocery List"
                                                     className="col-span-3"
                                                     value={listName}
                                                     onChange={(e) => setlistName(e.target.value)}
